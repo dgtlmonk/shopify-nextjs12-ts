@@ -1,9 +1,20 @@
-# Shopify App Node
+# Shopify App Node Boilerplate
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
 [![Build Status](https://travis-ci.com/Shopify/shopify-app-node.svg?branch=master)](https://travis-ci.com/Shopify/shopify-app-node)
 
 Boilerplate to create an embedded Shopify app made with Node, [Next.js](https://nextjs.org/), [Shopify-koa-auth](https://github.com/Shopify/quilt/tree/master/packages/koa-shopify-auth), [Polaris](https://github.com/Shopify/polaris-react), and [App Bridge React](https://shopify.dev/tools/app-bridge/react-components).
+
+## Setup
+Create `.env` file at root folder like so
+```
+SHOPIFY_API_KEY={your api key}
+SHOPIFY_API_SECRET={your api secret}
+SHOP={yourshop.myshopify.com}
+SCOPES=write_products,write_customers,write_draft_orders
+HOST={custom.ngrok.tunnel.url}
+
+```
 
 ## Installation
 
