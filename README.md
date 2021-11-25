@@ -16,16 +16,6 @@ HOST={custom.ngrok.tunnel.url}
 
 ```
 
-## Installation
-
-Using the [Shopify CLI](https://github.com/Shopify/shopify-cli) run:
-
-```sh
-~/ $ shopify node create -n APP_NAME
-```
-
-Or, fork and clone repo
-
 ## Requirements
 
 - If you don’t have one, [create a Shopify partner account](https://partners.shopify.com/signup).
@@ -34,7 +24,9 @@ Or, fork and clone repo
 
 ## Usage
 
-This repository is used by [Shopify CLI](https://github.com/Shopify/shopify-cli) as a scaffold for Node apps. You can clone or fork it yourself, but it’s faster and easier to use Shopify App CLI, which handles additional routine development tasks for you.
+Run in development mode
+
+> $ npm run dev
 
 ## License
 
