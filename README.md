@@ -6,7 +6,7 @@
 Boilerplate to create an embedded Shopify app made with Node, [Next.js](https://nextjs.org/), [Shopify-koa-auth](https://github.com/Shopify/quilt/tree/master/packages/koa-shopify-auth), [Polaris](https://github.com/Shopify/polaris-react), and [App Bridge React](https://shopify.dev/tools/app-bridge/react-components).
 
 ## Setup
-Create `.env` file at root folder like so
+Create `.env` file at root folder with your shopify settings
 ```
 SHOPIFY_API_KEY={your api key}
 SHOPIFY_API_SECRET={your api secret}
